@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic RPG Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="status-bar">
+            <div id="player-health" class="health-bar">Player HP: 100</div>
+            <div id="enemy-health" class="health-bar">Enemy HP: 100</div>
+        </div>
+        <div class="battlefield">
+            <div class="character" id="player">
+                <img src="sigma_man.jpg" alt="Player" />
+                <p>Sigma Man</p>
+            </div>
+            <div class="character" id="enemy">
+                <img src="chef_arnold.png"  alt="Enemy" />
+                <p>Bio chef arnold</p>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="attack-btn">Attack</button>
+            <button id="heal-btn">Heal</button>
+        </div>
+        <div id="log" class="log"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
